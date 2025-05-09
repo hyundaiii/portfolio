@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects - Hyndavi Teegela</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="projects-page">
+        <h2>Projects</h2>
+      
+        <!-- Project Card with link -->
+        <a href="beauty-odyssey.html" class="project-card">
+          <img src="assets/beauty-odyssey-thumbnail.jpg" alt="Beauty Odyssey App">
+          <div class="card-content">
+            <h3>Beauty Odyssey</h3>
+            <p class="short-desc">An app that recommends makeup videos & Sephora tools based on facial features.</p>
+          </div>
+        </a>
+      </section>
+  <script>
+    // Get current file name (e.g., about.html)
+    const current = window.location.pathname.split("/").pop();
+  
+    // Loop through all nav links
+    document.querySelectorAll(".navbar a").forEach(link => {
+      if (link.getAttribute("href") === current) {
+        link.classList.add("active");
+      }
+    });
+  </script>  
+</body>
+</html>

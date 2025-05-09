@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Skills - Hyndavi Teegela</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>      
+      <section class="skills-page">
+        <h2>My Skills</h2>
+      
+        <!-- Technical Skills -->
+        <div class="skills-block">
+          <h3>💻 Technical Skills</h3>
+          <div class="skill-list">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">Tailwind CSS</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">HTML/CSS</span>
+          </div>
+        </div>
+      
+        <!-- Non-Technical Skills -->
+        <div class="skills-block">
+          <h3>🌟 Non-Technical Skills</h3>
+          <div class="skill-list">
+            <span class="skill-pill">Communication</span>
+            <span class="skill-pill">Time Management</span>
+            <span class="skill-pill">Teamwork</span>
+            <span class="skill-pill">Leadership</span>
+            <span class="skill-pill">Public Speaking</span>
+            <span class="skill-pill">Creativity</span>
+            <span class="skill-pill">Adaptability</span>
+          </div>
+        </div>
+      </section>            
+  <script>
+    // Get current file name (e.g., about.html)
+    const current = window.location.pathname.split("/").pop();
+  
+    // Loop through all nav links
+    document.querySelectorAll(".navbar a").forEach(link => {
+      if (link.getAttribute("href") === current) {
+        link.classList.add("active");
+      }
+    });
+  </script>  
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Hyndavi Teegela</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about-me">
+    <h2>About Me</h2>
+    <p class="resume-link">
+        <a href="assets/Hyndavi_Teegela_Resume.pdf" download>📄 My Resume</a>
+      </p>
+      
+  
+    <!-- First Row: Your Photo + Paragraph -->
+    <div class="about-row">
+      <img src="assets/IMG_5584.jpeg" alt="Hyndavi Teegela" class="profile-pic">
+      <p class="about-text">
+        My name is Hyndavi Teegela and I’m 21 years old, born on September 21, 2003. I’m currently majoring in Computer Science at California State University, Fullerton, with an expected graduation date of December 2025.
+      </p>
+    </div>
+  
+    <!-- Second Row: Paragraph First, Then Mocha -->
+    <div class="about-row mocha-row">
+      <p class="about-text">
+        I have the cutest golden retriever named Mocha — he’s my emotional support and my best friend. In my free time, I love dancing, cooking, and spending time at the beach. A fun fact about me: I’ve lived in Botswana, Africa!
+      </p>
+      <div class="mocha-pic-container">
+        <img src="assets/IMG_9462.jpeg" alt="Mocha the Golden Retriever" class="dog-pic">
+        <p class="dog-caption">(*he is not this tiny anymore*) 😢</p>
+      </div>
+    </div>
+  </section>  
+
+  <!-- Highlight Active Nav -->
+  <script>
+    const current = window.location.pathname.split("/").pop();
+    document.querySelectorAll(".navbar a").forEach(link => {
+      if (link.getAttribute("href") === current) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+
+</body>
+</html>
+

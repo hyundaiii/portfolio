@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hyndavi Teegela | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hyndavi Teegela</h1>
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>      
+  </header>
+  <main>
+    <section class="intro">
+        <p> Aspiring Data Analyst | Absolute Dog Lover</p>
+    </section>
+  </main>
+  <footer>
+    <div class="social-icons">
+        <a href="https://github.com/hyundaiii" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/hyndavi-teegela-2a0846253" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="mailto:hyndavi.teegela@csu.fullerton.edu"><i class="fas fa-envelope fa-2x"></i></a>
+      </div>
+  </footer>
+  <script>
+    // Get current file name (e.g., about.html)
+    const current = window.location.pathname.split("/").pop();
+  
+    // Loop through all nav links
+    document.querySelectorAll(".navbar a").forEach(link => {
+      if (link.getAttribute("href") === current) {
+        link.classList.add("active");
+      }
+    });
+  </script>  
+</body>
+</html>
