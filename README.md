@@ -1,4 +1,4 @@
-Hyndavi Teegela – Portfolio Website 
+### Hyndavi Teegela – Portfolio Website 
 
 Welcome to my personal portfolio!  
 This website was built to showcase my projects, technical skills, and background as a computer science student passionate about data science and full-stack development.
