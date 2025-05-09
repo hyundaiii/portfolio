@@ -33,10 +33,10 @@ assets/
 ##  How to Run the Website Locally
 
 1. Clone the repository:
-   ```bash
 git clone https://github.com/yourusername/your-repo-name.git
-3. Open the folder in VS Code or your favorite editor
-4. Double-click index.html to launch it in your browser
+2. Open the folder in VS Code or your favorite editor
+3. Double-click index.html to launch it in your browser
+
 
 ---
 
