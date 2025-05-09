@@ -7,14 +7,14 @@ This website was built to showcase my projects, technical skills, and background
 
 ## Project Structure
 
-index.html           # Homepage
-about.html           # About Me page
-projects.html        # Projects showcase
-skills.html          # Technical & non-technical skills
-contact.html         # Contact form with Formspree
-css/
+- index.html           # Homepage
+- about.html           # About Me page
+- projects.html        # Projects showcase
+- skills.html          # Technical & non-technical skills
+- contact.html         # Contact form with Formspree
+- css/
 └── style.css        # All custom styles
-assets/
+- assets/
 └── images, resume   # Logos, screenshots, resume, etc.
 
 ---
