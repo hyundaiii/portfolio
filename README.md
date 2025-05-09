@@ -1,4 +1,4 @@
-### Hyndavi Teegela – Portfolio Website 
+# Hyndavi Teegela – Portfolio Website 
 
 Welcome to my personal portfolio!  
 This website was built to showcase my projects, technical skills, and background as a computer science student passionate about data science and full-stack development.
@@ -33,13 +33,10 @@ assets/
 ##  How to Run the Website Locally
 
 1. Clone the repository:
-
-```bash
+   ```bash
 git clone https://github.com/yourusername/your-repo-name.git
-
-2. Open the folder in VS Code or your favorite editor
-
-3. Double-click index.html to launch it in your browser
+3. Open the folder in VS Code or your favorite editor
+4. Double-click index.html to launch it in your browser
 
 ---
 
